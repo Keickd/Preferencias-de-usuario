@@ -18,13 +18,6 @@ class SideMenu extends StatelessWidget {
             },
           ),
           ListTile(
-            leading: Icon(Icons.people_outline),
-            title: Text('People'),
-            onTap: () {
-              Navigator.pushReplacementNamed(context, 'people');
-            },
-          ),
-          ListTile(
             leading: Icon(Icons.settings_outlined),
             title: Text('Settings'),
             onTap: () {
